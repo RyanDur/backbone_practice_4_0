@@ -10,10 +10,10 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'guard', '1.8.1'
   gem 'jasmine', '1.3.2'
+  gem 'sinon-rails'
 end
 
 group :test do
-  gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
 end
 
