@@ -1,7 +1,10 @@
 Bbprac::Application.routes.draw do
-  resources :repos
+  scope 'api' do
+    resources :repos
+  end
 
-  get "main/index"
+  root to: "main#index"
+  get '*path', to: "main#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -42,7 +45,7 @@ Bbprac::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
