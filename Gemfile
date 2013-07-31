@@ -9,7 +9,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
   gem 'guard', '1.8.1'
-  gem 'jasmine', '1.3.2'
+  gem "jasmine", github: "pivotal/jasmine-gem", ref: "e8105401b6ed9d4b462bbbaf508ab7ac8a77a245"
   gem 'sinon-rails'
 end
 
@@ -60,4 +60,4 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+# gem 'debugger', group: [:development, :test]'

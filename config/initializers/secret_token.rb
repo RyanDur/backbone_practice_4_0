@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Bbprac::Application.config.secret_key_base = 'ddc3dc6444d726dfa0d080b645b97e79a2cde44c2cfa21bb43364d0955be2797acf54c79eb5dd2e5fae107f5ecb2d78c2bc04a7fa4e947a6b9ce73e02fa3063c'
+Bbprac::Application.config.secret_key_base = 'a5f3385e65512e156cb0bd676415968a68ebaa9a004537fdd7cba298e899e06c9c7fe26d62994b354cd54fd48ff65639835d861c5ab016866a91b3fda8763631'

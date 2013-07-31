@@ -4,8 +4,7 @@ window.Bbprac = {
   Views: {},
   Routers: {},
   initialize: function() {
-    new Bbprac.Routers.Repos();
-    Backbone.history.start({pushState: true});
+    alert('Hello from Backbone!');
   }
 };
 
